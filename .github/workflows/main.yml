@@ -8,4 +8,4 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id
     steps:
     - name: SSH connection to Actions
-      uses: P3TERX/debugger-action@master
+      uses: hunter-sn/debugger-action@master
